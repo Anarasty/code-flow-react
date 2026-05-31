@@ -24,20 +24,31 @@
   .duration-700 {
     animation-duration: 700ms;
   }
+
+  .delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .delay-300 {
+    animation-delay: 300ms;
+  }
 }
 
 @keyframes slideInFromBottom {
-    from {
-      opacity: 0;
-      transform: translateY(1rem);
-    }
-  
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
   }
-  
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @keyframes slideInFromTop {
   from {
